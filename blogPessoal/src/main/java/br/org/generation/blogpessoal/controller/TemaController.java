@@ -2,6 +2,8 @@ package br.org.generation.blogpessoal.controller;
 
 import java.util.List;
 
+import org.generation.blogPessoal.model.Tema;
+import org.generation.blogPessoal.repository.TemaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,8 +16,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import br.org.generation.blogpessoal.repository.TemaRepository;
-import br.org.generation.blogpessoal.model.Tema;
+
+
 
 @RestController
 @CrossOrigin(origins = "*", allowedHeaders = "*")
