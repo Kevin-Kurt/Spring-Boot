@@ -1,13 +1,13 @@
-package org.generation.blogPessoal;
+package org.generation.blogpessoal;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BlogPessoalApplicationTests {
+public class BlogPessoalApplicationTests {
 
 	@Test
 	void contextLoads() {
 	}
 
-}
+}	
